@@ -1,0 +1,80 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Atomic-to-device workflow diagram</title>
+  <desc id="desc">A closed-loop workflow showing hypothesis, atomistic simulation, kinetics, TCAD, decision, and experimental feedback coordinated by AI agents.</desc>
+  <rect width="1200" height="760" rx="32" fill="#F8FAFC"/>
+  <defs>
+    <linearGradient id="g1" x1="100" y1="80" x2="1100" y2="680" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#06B6D4"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#0F172A" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+
+  <text x="600" y="70" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="800" fill="#0F172A">Closed-loop AI + Multiscale Simulation</text>
+  <text x="600" y="112" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="19" fill="#475569">From atomistic mechanisms to process kinetics, TCAD handoff, and decision-oriented feedback</text>
+
+  <g filter="url(#shadow)">
+    <rect x="72" y="210" width="188" height="128" rx="24" fill="white" stroke="#E2E8F0"/>
+    <text x="166" y="252" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="800" fill="#0F172A">Hypothesis</text>
+    <text x="166" y="284" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="15" fill="#475569">Material / process</text>
+    <text x="166" y="306" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="15" fill="#475569">device question</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="328" y="210" width="188" height="128" rx="24" fill="white" stroke="#E2E8F0"/>
+    <text x="422" y="252" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="800" fill="#0F172A">Atomistic</text>
+    <text x="422" y="284" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="15" fill="#475569">DFT · MD · NEB</text>
+    <text x="422" y="306" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="15" fill="#475569">MLIP workflows</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="584" y="210" width="188" height="128" rx="24" fill="white" stroke="#E2E8F0"/>
+    <text x="678" y="252" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="800" fill="#0F172A">Kinetics</text>
+    <text x="678" y="284" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="15" fill="#475569">Rates · barriers</text>
+    <text x="678" y="306" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="15" fill="#475569">KMC · mechanisms</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="840" y="210" width="188" height="128" rx="24" fill="white" stroke="#E2E8F0"/>
+    <text x="934" y="252" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="800" fill="#0F172A">TCAD</text>
+    <text x="934" y="284" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="15" fill="#475569">Device / PDE</text>
+    <text x="934" y="306" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="15" fill="#475569">validated inputs</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="456" y="486" width="288" height="140" rx="28" fill="url(#g1)"/>
+    <text x="600" y="537" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="850" fill="white">AI Agent Layer</text>
+    <text x="600" y="572" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#DBEAFE">plan · execute · validate · learn</text>
+    <text x="600" y="598" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#DBEAFE">advance / reject / hold / next experiment</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="832" y="486" width="230" height="140" rx="28" fill="white" stroke="#E2E8F0"/>
+    <text x="947" y="537" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="850" fill="#0F172A">Experiment</text>
+    <text x="947" y="572" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#475569">Calibration</text>
+    <text x="947" y="596" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#475569">Feedback</text>
+  </g>
+
+  <path d="M260 274H328" stroke="#2563EB" stroke-width="5" stroke-linecap="round"/>
+  <path d="M516 274H584" stroke="#2563EB" stroke-width="5" stroke-linecap="round"/>
+  <path d="M772 274H840" stroke="#2563EB" stroke-width="5" stroke-linecap="round"/>
+  <path d="M314 258L338 274L314 290" fill="none" stroke="#2563EB" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M570 258L594 274L570 290" fill="none" stroke="#2563EB" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M826 258L850 274L826 290" fill="none" stroke="#2563EB" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M934 338C934 426 760 444 710 496" stroke="#06B6D4" stroke-width="5" stroke-linecap="round" stroke-dasharray="12 12"/>
+  <path d="M600 486C524 438 392 430 422 338" stroke="#06B6D4" stroke-width="5" stroke-linecap="round" stroke-dasharray="12 12"/>
+  <path d="M744 556H832" stroke="#2563EB" stroke-width="5" stroke-linecap="round"/>
+  <path d="M818 540L842 556L818 572" fill="none" stroke="#2563EB" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M832 602C694 710 298 685 166 338" stroke="#0EA5E9" stroke-width="5" stroke-linecap="round" stroke-dasharray="12 12"/>
+  <path d="M176 365L166 338L192 350" fill="none" stroke="#0EA5E9" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g opacity="0.75">
+    <circle cx="404" cy="176" r="9" fill="#2563EB"/>
+    <circle cx="438" cy="154" r="7" fill="#06B6D4"/>
+    <circle cx="472" cy="178" r="9" fill="#2563EB"/>
+    <path d="M413 171L431 159M445 159L463 172" stroke="#64748B" stroke-width="3"/>
+  </g>
+</svg>

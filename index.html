@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal website of Lesheng Li, focused on computational materials science, semiconductor TCAD, atomistic simulation, multiscale modeling, and AI for science." />
+  <meta name="author" content="Lesheng Li" />
+  <meta name="theme-color" content="#0f172a" />
+
+  <meta property="og:title" content="Lesheng Li | Computational Materials Science, TCAD, AI for Science" />
+  <meta property="og:description" content="Physics-grounded simulation workflows connecting atomistic mechanisms, molecular dynamics, process kinetics, and device-level behavior." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://lengthlee.github.io" />
+
+  <title>Lesheng Li | Computational Materials Science, TCAD & AI for Science</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Lesheng Li",
+    "url": "https://lengthlee.github.io",
+    "sameAs": [
+      "https://github.com/lengthlee"
+    ],
+    "jobTitle": "Computational Materials Scientist | TCAD | AI for Science",
+    "knowsAbout": [
+      "Computational materials science",
+      "Semiconductor TCAD",
+      "Atomistic simulation",
+      "Multiscale modeling",
+      "Machine learning interatomic potentials",
+      "Agentic AI for scientific workflows"
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Lesheng Li homepage">
+        <span class="brand-mark">LL</span>
+        <span class="brand-text">Lesheng Li</span>
+      </a>
+
+      <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="nav-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div id="nav-menu" class="nav-menu">
+        <a href="#about">About</a>
+        <a href="#expertise">Expertise</a>
+        <a href="#projects">Projects</a>
+        <a href="#workflow">Workflow</a>
+        <a href="#writing">Writing</a>
+        <a href="#contact">Contact</a>
+        <button class="theme-toggle" type="button" aria-label="Switch color theme">☾</button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section id="home" class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Computational Materials Science · TCAD · AI for Science</p>
+          <h1>Building physics-grounded AI workflows from atoms to devices.</h1>
+          <p class="hero-subtitle">
+            I work at the intersection of atomistic simulation, semiconductor process/device modeling,
+            machine learning interatomic potentials, and agentic AI systems for scientific discovery.
+          </p>
+
+          <div class="hero-actions" aria-label="Primary links">
+            <a class="button primary" href="#projects">View Projects</a>
+            <a class="button secondary" href="https://github.com/lengthlee" target="_blank" rel="noopener">GitHub</a>
+            <a class="button secondary" href="#contact">Contact</a>
+          </div>
+
+          <ul class="hero-highlights" aria-label="Research highlights">
+            <li><strong>Atomistic</strong><span>DFT, MD, NEB, HTST, MLIPs</span></li>
+            <li><strong>Process</strong><span>Surface reactions, ALD/CVD/etch, KMC</span></li>
+            <li><strong>Device</strong><span>TCAD, PDEs, PINNs, multiscale handoff</span></li>
+          </ul>
+        </div>
+
+        <aside class="profile-card" aria-label="Profile summary">
+          <img src="assets/profile-placeholder.svg" alt="Stylized profile placeholder for Lesheng Li" class="profile-photo" />
+          <div class="profile-card-body">
+            <h2>Lesheng Li</h2>
+            <p class="profile-title">Computational Materials Scientist<br />TCAD & AI for Science</p>
+            <p>
+              Focused on uncertainty-aware, decision-oriented simulation workflows that connect
+              physics models, AI agents, and experimental feedback.
+            </p>
+            <div class="tag-row" aria-label="Keywords">
+              <span>MLIP</span>
+              <span>TCAD</span>
+              <span>KMC</span>
+              <span>Digital Twin</span>
+              <span>Agentic AI</span>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="about" class="section section-muted">
+      <div class="container two-column">
+        <div>
+          <p class="section-kicker">About</p>
+          <h2>My research direction</h2>
+        </div>
+        <div class="prose">
+          <p>
+            My current work centers on using computation and AI to make semiconductor and materials
+            research more predictive, automated, and experimentally useful. I am especially interested
+            in connecting atomic-level mechanisms to process-level kinetics and device-level outcomes.
+          </p>
+          <p>
+            Rather than treating simulation as a standalone calculation, I view it as a closed-loop
+            decision system: generate hypotheses, run physics-based models, quantify uncertainty,
+            decide whether to advance/reject/hold a candidate, and use feedback to improve the next
+            simulation or experiment.
+          </p>
+          <p>
+            This website summarizes public-facing themes only. Project names, examples, and details
+            should be edited before publishing if any item is confidential or not ready to share.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="expertise" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">Expertise</p>
+          <h2>Technical areas</h2>
+          <p>
+            A compact map of the skills and research themes I bring to computational materials,
+            semiconductor TCAD, and AI-enabled scientific workflows.
+          </p>
+        </div>
+
+        <div class="card-grid four">
+          <article class="card">
+            <div class="card-icon">⚛</div>
+            <h3>Atomistic simulation</h3>
+            <p>
+              First-principles and atomistic modeling for structures, reaction pathways, diffusion,
+              surface migration, desorption, deposition, and defect-related mechanisms.
+            </p>
+            <ul class="mini-list">
+              <li>DFT, NEB, HTST</li>
+              <li>Classical and MLIP-driven MD</li>
+              <li>Energy barriers and kinetic parameters</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <div class="card-icon">▦</div>
+            <h3>Process kinetics</h3>
+            <p>
+              Reaction networks and kinetic models that translate atomistic information into process
+              behavior for growth, etch, diffusion, and surface chemistry.
+            </p>
+            <ul class="mini-list">
+              <li>Gas-surface reactions</li>
+              <li>ALD/CVD/etch mechanisms</li>
+              <li>Kinetic Monte Carlo workflows</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <div class="card-icon">◫</div>
+            <h3>TCAD and device modeling</h3>
+            <p>
+              Multiscale interfaces that convert atomistic or process-level outputs into quantities
+              useful for continuum and device-level modeling.
+            </p>
+            <ul class="mini-list">
+              <li>Atomic-to-device handoff</li>
+              <li>Defect/trap-aware modeling</li>
+              <li>PDE and PINN-based solvers</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <div class="card-icon">✦</div>
+            <h3>AI for science</h3>
+            <p>
+              Agentic AI systems that orchestrate simulations, analyze outputs, detect uncertainty,
+              and recommend next actions in scientific workflows.
+            </p>
+            <ul class="mini-list">
+              <li>Agentic workflow design</li>
+              <li>MLIP active learning</li>
+              <li>Digital twins and closed loops</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section section-muted">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">Projects</p>
+          <h2>Selected public-facing project themes</h2>
+          <p>
+            These descriptions are intentionally high-level. Replace, remove, or expand them depending
+            on what you are comfortable sharing publicly.
+          </p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card featured">
+            <div class="project-label">Featured direction</div>
+            <h3>Agentic AI for atomistic and device simulations</h3>
+            <p>
+              A framework for combining AI agents with physics tools so that simulation workflows can
+              plan tasks, call calculators, validate outputs, track uncertainty, and propose the next
+              experiment or computation.
+            </p>
+            <div class="project-tags">
+              <span>Agentic AI</span>
+              <span>Tool orchestration</span>
+              <span>Physics validation</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <h3>Multiscale simulation for semiconductor development</h3>
+            <p>
+              Connecting DFT/MD/MLIP/KMC outputs to process and device-level models, with emphasis on
+              uncertainty-aware verification and decision-oriented simulation outputs.
+            </p>
+            <div class="project-tags">
+              <span>DFT → TCAD</span>
+              <span>KMC</span>
+              <span>Digital Twin</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <h3>Machine-learning interatomic potential workflows</h3>
+            <p>
+              Automated workflows for candidate generation, out-of-distribution detection, DFT labeling,
+              model retraining, validation, and deployment into large-scale atomistic simulations.
+            </p>
+            <div class="project-tags">
+              <span>MLIP</span>
+              <span>Active learning</span>
+              <span>Uncertainty</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <h3>Gas-surface reaction and kinetics modeling</h3>
+            <p>
+              Simulation tools for deposition, desorption, surface migration, sputter etch, and kinetic
+              parameter extraction from atomistic calculations and molecular dynamics data.
+            </p>
+            <div class="project-tags">
+              <span>Surface chemistry</span>
+              <span>Arrhenius analysis</span>
+              <span>Etch / growth</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <h3>PINN-enabled PDE and device workflows</h3>
+            <p>
+              Exploration of physics-informed neural networks and hybrid numerical/ML solvers for fast
+              approximation, inverse modeling, and surrogate acceleration in device-relevant PDE systems.
+            </p>
+            <div class="project-tags">
+              <span>PINNs</span>
+              <span>PDEs</span>
+              <span>Surrogates</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="workflow" class="section">
+      <div class="container workflow-grid">
+        <div>
+          <p class="section-kicker">Workflow</p>
+          <h2>How I think about atomic-to-device simulation</h2>
+          <p class="prose-narrow">
+            The goal is not only to compute a number. The goal is to build a reliable workflow that
+            produces an actionable scientific decision: advance, reject, hold, or run the next targeted
+            simulation/experiment.
+          </p>
+          <ol class="workflow-list">
+            <li><strong>Hypothesis:</strong> define the material/process/device question.</li>
+            <li><strong>Atomistic model:</strong> compute mechanisms, barriers, rates, or defects.</li>
+            <li><strong>Kinetics:</strong> translate mechanisms into process-level behavior.</li>
+            <li><strong>Device handoff:</strong> pass compact, validated parameters into TCAD/PDE models.</li>
+            <li><strong>Decision:</strong> quantify uncertainty and recommend the next action.</li>
+          </ol>
+        </div>
+        <figure class="workflow-figure">
+          <img src="assets/atom-device-flow.svg" alt="Diagram showing atomistic simulation connected to kinetics, TCAD, experimental feedback, and AI agents" />
+          <figcaption>Conceptual closed-loop workflow: physics models, AI agents, and feedback.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="writing" class="section section-muted">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">Writing & talks</p>
+          <h2>Topics I write and speak about</h2>
+          <p>
+            Add links here to papers, slides, blog posts, GitHub repositories, seminars, or PDFs.
+          </p>
+        </div>
+
+        <div class="writing-grid">
+          <article class="writing-card">
+            <span class="writing-type">Topic</span>
+            <h3>Agentic AI for scientific simulation</h3>
+            <p>Designing AI agents that use physics tools safely, transparently, and with validation.</p>
+          </article>
+          <article class="writing-card">
+            <span class="writing-type">Topic</span>
+            <h3>Digital twins for materials and semiconductor TCAD</h3>
+            <p>Building closed-loop models that combine simulation, experiments, uncertainty, and decisions.</p>
+          </article>
+          <article class="writing-card">
+            <span class="writing-type">Topic</span>
+            <h3>MLIPs and active learning for atomistic simulation</h3>
+            <p>Practical workflows for training, validating, and deploying ML interatomic potentials.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact-card">
+        <div>
+          <p class="section-kicker">Contact</p>
+          <h2>Let’s connect</h2>
+          <p>
+            I am interested in conversations around computational materials science, semiconductor
+            simulation, scientific AI agents, MLIPs, digital twins, and multiscale modeling.
+          </p>
+        </div>
+        <div class="contact-links">
+          <a href="https://github.com/lengthlee" target="_blank" rel="noopener">GitHub: @lengthlee</a>
+          <a href="https://www.linkedin.com/in/lesheng-li/" target="_blank" rel="noopener">LinkedIn: replace this link</a>
+          <a href="mailto:lengthlee@gmail.com">Email: replace this email</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>© <span id="year"></span> Lesheng Li. Built with GitHub Pages.</p>
+      <p class="footer-note">Last updated for public website draft. Review confidential details before publishing.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

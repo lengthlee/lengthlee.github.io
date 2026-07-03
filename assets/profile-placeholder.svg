@@ -1,0 +1,29 @@
+<svg width="900" height="650" viewBox="0 0 900 650" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Profile placeholder</title>
+  <desc id="desc">A professional abstract avatar with the initials LL and atomistic simulation motifs.</desc>
+  <rect width="900" height="650" rx="42" fill="#0F172A"/>
+  <circle cx="170" cy="120" r="210" fill="#2563EB" opacity="0.36"/>
+  <circle cx="790" cy="110" r="240" fill="#06B6D4" opacity="0.26"/>
+  <circle cx="720" cy="570" r="220" fill="#8B5CF6" opacity="0.22"/>
+  <g opacity="0.85">
+    <path d="M170 465C270 360 365 345 450 430C535 515 637 497 732 394" stroke="#93C5FD" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="170" cy="465" r="16" fill="#E0F2FE"/>
+    <circle cx="300" cy="378" r="12" fill="#BAE6FD"/>
+    <circle cx="450" cy="430" r="18" fill="#FFFFFF"/>
+    <circle cx="600" cy="491" r="12" fill="#BAE6FD"/>
+    <circle cx="732" cy="394" r="16" fill="#E0F2FE"/>
+  </g>
+  <g transform="translate(250 132)">
+    <rect x="0" y="0" width="400" height="290" rx="36" fill="white" opacity="0.10"/>
+    <rect x="26" y="26" width="348" height="238" rx="26" fill="white" opacity="0.10"/>
+    <text x="200" y="172" text-anchor="middle" fill="white" font-family="Inter, Arial, sans-serif" font-size="120" font-weight="800" letter-spacing="-8">LL</text>
+    <text x="200" y="218" text-anchor="middle" fill="#BFDBFE" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">Atoms → Devices</text>
+  </g>
+  <g opacity="0.35" stroke="white" stroke-width="3">
+    <circle cx="160" cy="230" r="34"/>
+    <circle cx="238" cy="272" r="18"/>
+    <circle cx="696" cy="248" r="30"/>
+    <circle cx="768" cy="303" r="15"/>
+    <path d="M191 244L222 263M720 266L756 292"/>
+  </g>
+</svg>
