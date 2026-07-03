@@ -1,0 +1,4 @@
+- 👋 Hi, I’m @lengthlee, Lesheng Li
+- 👀 I’m interested in multi-scale simulation and agentic AI for TCAD modeling 
+- 🌱 I’m currently learning digital twin 
+- 📫 How to reach me: www.linkedin.com/in/lesheng-li
